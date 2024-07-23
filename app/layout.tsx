@@ -10,8 +10,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <meta
-          name="viewport"
-          content="width=device-width, height=device-height, initial-scale=1"
+          name="Quadcydle"
+          content="Last stop for all your Business needs"
         />
       </head>
       <body>
