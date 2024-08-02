@@ -4,18 +4,18 @@ import { Button, Highlight } from "./button";
 import { KeyboardIllustration } from "../illustrations/keyboard";
 
 const shortcuts = [
-  { text: "Opens command line", keys: "⌘k" },
-  { text: "Assign issue to me", keys: "i" },
-  { text: "Assign issue to", keys: "a" },
-  { text: "Change issue status", keys: "s" },
-  { text: "Set issue priority", keys: "p" },
-  { text: "Add issue labels", keys: "l" },
-  { text: "Set due date", keys: "⇧d" },
-  { text: "Set parent issue", keys: "⇧⌘p" },
-  { text: "Add sub-issue", keys: "⇧⌘o" },
-  { text: "Create new issue", keys: "c" },
-  { text: "Create new issue from template", keys: "⌥c" },
-  { text: "Move to project", keys: "⇧p" },
+  { text: "Mordren Next.Js sites", keys: "n" },
+  { text: "Set Up New Hosting Account", keys: "i" },
+  { text: "Optimize for SEO", keys: "a" },
+  { text: "Launch Social Media Campaign", keys: "s" },
+  { text: "Create New Marketing Strategy", keys: "p" },
+  { text: "Design Custom Website", keys: "l" },
+  { text: "Add E-commerce Functionality", keys: "⇧d" },
+  { text: "Schedule Client Consultation", keys: "⇧⌘p" },
+  { text: "Review Analytics Reports", keys: "⇧⌘o" },
+  { text: "Reach New Customers", keys: "c" },
+  { text: "Seamless Payment Solutions", keys: "⌥c" },
+  { text: "Manage Project Billing", keys: "⇧p" },
 ];
 
 export const KeyboardShortcuts = () => {
