@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import { Container } from "../components/container";
+import { Container } from "../components/Homepage/container";
 import { StarsIllustration } from "../components/icons/stars";
 import { BuildMomentum } from "../components/sections/build-momentum";
 import { Clients } from "../components/sections/clients";
@@ -8,7 +8,7 @@ import { HomepageHero } from "../components/sections/homepage-hero";
 import { SetDirection } from "../components/sections/set-direction";
 import { UnlikeAnyTool } from "../components/sections/unlike-any-tool";
 
-export default function Homepage() {
+export default function Home() {
   return (
     <>
       <div className="overflow-hidden pb-[16.4rem] md:pb-[25.6rem]">

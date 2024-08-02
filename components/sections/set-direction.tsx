@@ -1,6 +1,6 @@
 "use client";
 
-import { Features } from "../features";
+import { Features } from "../Homepage/features";
 import {
   AutomatedBacklogIcon,
   CustomViewsIcon,

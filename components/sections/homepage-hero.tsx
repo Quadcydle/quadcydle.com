@@ -1,6 +1,6 @@
-import { Button, Highlight } from "../button";
-import { Hero, HeroTitle, HeroSubtitle } from "../hero";
-import { HeroImage } from "../hero-image";
+import { Button, Highlight } from "../Homepage/button";
+import { Hero, HeroTitle, HeroSubtitle } from "../Homepage/hero";
+import { HeroImage } from "../Homepage/hero-image";
 import { ChevronIcon } from "../icons/chevron";
 
 export const HomepageHero = () => (

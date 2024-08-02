@@ -17,7 +17,7 @@ import {
   MediumIcon,
   LowIcon,
   AddLabels,
-} from "./icons/command-bar";
+} from "../icons/command-bar";
 
 const commandOptions = [
   {

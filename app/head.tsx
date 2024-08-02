@@ -6,7 +6,7 @@ export default function Head() {
         name="Quadcydle"
         content="Last stop for all your Business needs"
       />
-      <meta name="robots" content="noindex" />
+      
     </>
   );
 }

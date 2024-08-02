@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Button } from "./button";
-import { Container } from "./container";
+import { Button } from "./Homepage/button";
+import { Container } from "./Homepage/container";
 import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
 import classNames from "classnames";
@@ -57,7 +57,7 @@ export const Header = () => {
               )}
             >
               <li>
-                <Link href="#">Features</Link>
+                <Link href="/about">Features</Link>
               </li>
               <li>
                 <Link href="#">Method</Link>

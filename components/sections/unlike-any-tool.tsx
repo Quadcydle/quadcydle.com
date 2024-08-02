@@ -1,9 +1,9 @@
-import { Button, Highlight } from "../button";
-import { CommandMenu } from "../command-menu";
-import { Container } from "../container";
+import { Button, Highlight } from "../Homepage/button";
+import { CommandMenu } from "../Homepage/command-menu";
+import { Container } from "../Homepage/container";
 import { LogoLightIllustration } from "../illustrations/logo-light";
 import { ZapIllustration } from "../illustrations/zap";
-import { KeyboardShortcuts } from "../keyboard-shortcuts";
+import { KeyboardShortcuts } from "../Homepage/keyboard-shortcuts";
 
 export const UnlikeAnyTool = () => (
   <div className="text-white">
