@@ -10,12 +10,12 @@ export const UnlikeAnyTool = () => (
     <Container>
       <div className="text-center">
         <h2 className="mb-4 text-4xl md:mb-7 md:text-7xl">
-          Unlike any tool
+          Unlike any Services
           <br className="hidden md:inline-block" /> you've used before
         </h2>
         <p className="mx-auto mb-12 max-w-[68rem] text-lg text-primary-text md:mb-7 md:text-xl">
-          Designed to the last pixel and engineered with unforgiving precision,
-          Linear combines UI elegance with world-class performance.
+          Expertly managing your online assets with precision.<br></br>
+          Quadcydle combines UI elegance with world-class performance.
         </p>
       </div>
     </Container>
@@ -23,10 +23,9 @@ export const UnlikeAnyTool = () => (
       <div className="flex snap-x snap-mandatory gap-6 overflow-x-auto px-8 pb-12 md:flex-wrap md:overflow-hidden">
         <div className="relative flex min-h-[48rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:max-w-[calc(66.66%-12px)] md:basis-[calc(66.66%-12px)] md:p-14">
           <KeyboardShortcuts />
-          <p className="mb-4 text-3xl">Built for your keyboard</p>
+          <p className="mb-4 text-3xl">Built for Businesses</p>
           <p className="text-md text-primary-text">
-            Fly through your tasks with rapid-fire keyboard shortcuts for
-            everything. Literally everything.
+            Effortlessly manage your projects with streamlined workflows and intuitive tools, designed to enhance your efficiency and productivity.
           </p>
         </div>
         <div className="relative flex min-h-[48rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:basis-[calc(33.33%-12px)] md:p-14">
@@ -35,7 +34,7 @@ export const UnlikeAnyTool = () => (
           </div>
           <p className="mb-4 text-3xl">Breathtakingly fast</p>
           <p className="text-md text-primary-text">
-            Built for speed with 50ms interactions and real-time sync.
+            Ensuring your digital presence is always up-to-date and performing at its best.
           </p>
         </div>
         <div className="group relative flex min-h-[48rem] w-full shrink-0 snap-center flex-col items-center justify-end overflow-hidden rounded-[4.8rem] border border-transparent-white bg-glass-gradient p-8 text-center md:basis-[calc(33.33%-12px)] md:p-14">
