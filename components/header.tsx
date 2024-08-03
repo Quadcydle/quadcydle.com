@@ -57,12 +57,12 @@ export const Header = () => {
               )}
             >
               <li>
-                <Link href="/about">Features</Link>
+                <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="#">Method</Link>
+                <Link href="/blog">Blogs</Link>
               </li>
-              <li className="md:hidden lg:block">
+              {/* <li className="md:hidden lg:block">
                 <Link href="#">Customers</Link>
               </li>
               <li className="md:hidden lg:block">
@@ -76,17 +76,17 @@ export const Header = () => {
               </li>
               <li>
                 <Link href="#">Company</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
 
-        <div className="ml-auto flex h-full items-center">
+        {/* <div className="ml-auto flex h-full items-center">
           <Link className="mr-6 text-sm" href="#">
             Log in
           </Link>
           <Button href="#">Sign up</Button>
-        </div>
+        </div> */}
 
         <button
           className="ml-6 md:hidden"

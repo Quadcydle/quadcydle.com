@@ -1,9 +1,9 @@
-import { AnalyticsWrapper } from "../components/Homepage/analytics";
-import { Container } from "../components/Homepage/container";
-import { CopyrightLinearBanner } from "../components/Homepage/copyright-linear-banner";
-import { Footer } from "../components/footer";
-import { Header } from "../components/header";
-import "../styles/globals.css";
+import { AnalyticsWrapper } from "../../components/Homepage/analytics";
+import { Container } from "../../components/Homepage/container";
+import { CopyrightLinearBanner } from "../../components/Homepage/copyright-linear-banner";
+import { Footer } from "../../components/footer";
+import { Header } from "../../components/header";
+import "../../styles/globals.css";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
