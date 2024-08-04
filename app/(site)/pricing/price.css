@@ -1,0 +1,13 @@
+@keyframes background-shine {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+  
+  .animate-background-shine {
+    animation: background-shine 2s linear infinite;
+  }
+  

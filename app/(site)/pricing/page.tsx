@@ -6,6 +6,7 @@ import { CheckCircle2 } from "lucide-react"
 import { Button } from "../../../components/Pricing/ui/button"
 import React, { useState } from "react"
 import { cn } from "../../../lib/utils"
+import "./price.css"
 
 type PricingSwitchProps = {
   onSwitch: (value: string) => void
@@ -47,7 +48,7 @@ const PricingSwitch = ({ onSwitch }: PricingSwitchProps) => (
 const PricingCard = ({ isYearly, title, monthlyPrice, yearlyPrice, description, features, actionLabel, popular, exclusive }: PricingCardProps) => (
   <Card
     className={cn(`w-72 flex flex-col justify-between py-1 ${popular ? "border-rose-400" : "border-zinc-700"} mx-auto sm:mx-0`, {
-      "animate-background-shine bg-white dark:bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] transition-colors":
+      "animate-background-shine bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] transition-colors":
         exclusive,
     })}>
     <div>
