@@ -15,11 +15,13 @@ export const Clients = () => (
   <>
     <p className="mb-12 text-center text-lg text-white md:text-xl">
       <span className="text-primary-text">
-      From startups to established enterprises,
+        From startups to established enterprises,
       </span>
       <br className="hidden md:block" />  We help businesses elevate their online presence.
     </p>
 
+
+    {/* hello my anme is dhruv  */}
     <div className="flex flex-wrap justify-around gap-x-6 gap-y-8 [&_svg]:max-w-[16rem] [&_svg]:basis-[calc(50%-12px)] md:[&_svg]:basis-[calc(16.66%-20px)]">
       <RampLogo />
       <LoomLogo className="hidden md:block" />
