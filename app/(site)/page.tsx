@@ -14,7 +14,7 @@ export default function Home() {
       <div className="overflow-hidden pb-[16.4rem] md:pb-[25.6rem]">
         <Container className="pt-[6.4rem]">
           <HomepageHero />
-          <h1>this is project</h1>
+          
         </Container>
       </div>
       <Container>
